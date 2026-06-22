@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgis/postgis:15-3.4
+    environment:
+      POSTGRES_DB: nkran_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: StrongPass123!
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  user-service:
+    build: ./services/user-service
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=nkran_db;Username=postgres;Password=StrongPass123!
+    depends_on:
+      - postgres
+
+  # Repeat for business-service (port 5002), booking-service (5003)
+
+  recommendation-service:
+    build: ./services/recommendation-service
+    ports:
+      - "5004:8000"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

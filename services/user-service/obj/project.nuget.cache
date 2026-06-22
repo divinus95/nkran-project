@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "OFHEVjIoMYg=",
+  "success": true,
+  "projectFilePath": "E:\\WorkStation_2026\\nkran_backend\\services\\user-service\\user-service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.26\\microsoft.aspnetcore.openapi.8.0.26.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.nettopologysuite\\10.0.2\\npgsql.entityframeworkcore.postgresql.nettopologysuite.10.0.2.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.2\\swashbuckle.aspnetcore.10.2.2.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.2\\swashbuckle.aspnetcore.swagger.10.2.2.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.2\\swashbuckle.aspnetcore.swaggergen.10.2.2.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.2\\swashbuckle.aspnetcore.swaggerui.10.2.2.nupkg.sha512",
+    "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
