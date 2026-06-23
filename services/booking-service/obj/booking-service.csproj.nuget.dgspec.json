@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WorkStation_2026\\nkran_backend\\services\\booking-service\\booking-service.csproj": {}
+    "C:\\Workstation\\nkran-project\\services\\booking-service\\booking-service.csproj": {}
   },
   "projects": {
-    "E:\\WorkStation_2026\\nkran_backend\\services\\booking-service\\booking-service.csproj": {
+    "C:\\Workstation\\nkran-project\\services\\booking-service\\booking-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WorkStation_2026\\nkran_backend\\services\\booking-service\\booking-service.csproj",
+        "projectUniqueName": "C:\\Workstation\\nkran-project\\services\\booking-service\\booking-service.csproj",
         "projectName": "booking-service",
-        "projectPath": "E:\\WorkStation_2026\\nkran_backend\\services\\booking-service\\booking-service.csproj",
-        "packagesPath": "C:\\Users\\isaac.kwarteng\\.nuget\\packages\\",
-        "outputPath": "E:\\WorkStation_2026\\nkran_backend\\services\\booking-service\\obj\\",
+        "projectPath": "C:\\Workstation\\nkran-project\\services\\booking-service\\booking-service.csproj",
+        "packagesPath": "C:\\Users\\Simple_Swift_IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Workstation\\nkran-project\\services\\booking-service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\isaac.kwarteng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Simple_Swift_IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Workstation\\nkran-project\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Workstation\\nkran-project\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -54,6 +58,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": {
               "target": "Package",
@@ -83,7 +95,73 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workstation\\nkran-project\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workstation\\nkran-project\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Workstation\\nkran-project\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Simple_Swift_IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Workstation\\nkran-project\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Simple_Swift_IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
